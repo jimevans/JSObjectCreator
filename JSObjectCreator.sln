@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JSObjectCreator", "src\JSObjectCreator.vcxproj", "{FD6FF7F2-63AC-4E10-97CF-40875D6DED72}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScriptEngineProxy", "ScriptEngineProxy\ScriptEngineProxy.vcxproj", "{ECD3B5B7-CA25-41EA-AEBE-8DBE447B8653}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{FD6FF7F2-63AC-4E10-97CF-40875D6DED72}.Release|x64.Build.0 = Release|x64
 		{FD6FF7F2-63AC-4E10-97CF-40875D6DED72}.Release|x86.ActiveCfg = Release|Win32
 		{FD6FF7F2-63AC-4E10-97CF-40875D6DED72}.Release|x86.Build.0 = Release|Win32
+		{ECD3B5B7-CA25-41EA-AEBE-8DBE447B8653}.Debug|x64.ActiveCfg = Debug|x64
+		{ECD3B5B7-CA25-41EA-AEBE-8DBE447B8653}.Debug|x64.Build.0 = Debug|x64
+		{ECD3B5B7-CA25-41EA-AEBE-8DBE447B8653}.Debug|x86.ActiveCfg = Debug|Win32
+		{ECD3B5B7-CA25-41EA-AEBE-8DBE447B8653}.Debug|x86.Build.0 = Debug|Win32
+		{ECD3B5B7-CA25-41EA-AEBE-8DBE447B8653}.Release|x64.ActiveCfg = Release|x64
+		{ECD3B5B7-CA25-41EA-AEBE-8DBE447B8653}.Release|x64.Build.0 = Release|x64
+		{ECD3B5B7-CA25-41EA-AEBE-8DBE447B8653}.Release|x86.ActiveCfg = Release|Win32
+		{ECD3B5B7-CA25-41EA-AEBE-8DBE447B8653}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
