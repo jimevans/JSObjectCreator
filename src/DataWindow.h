@@ -13,6 +13,7 @@ public:
 	DataWindow() {
 		this->response_ = "";
 	}
+
 	BEGIN_MSG_MAP(InProcessDriverEngine)
 		MESSAGE_HANDLER(WM_COPYDATA, OnCopyData)
 	END_MSG_MAP()
